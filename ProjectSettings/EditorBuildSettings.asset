@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/third_boku_unity.unity
+    path: Assets/Scenes/title.unity
+    guid: 721d0b4ef5d485a4db00fd8af104f4d5
+  - enabled: 1
+    path: Assets/Scenes/game.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/result.unity
+    guid: ff8ff5878907aa24abc9904e0b19b3fd
   m_configObjects: {}
