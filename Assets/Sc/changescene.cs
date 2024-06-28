@@ -5,8 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class changeScene : MonoBehaviour
 {
-    public void change_button()
+    public void _game()
     {
         SceneManager.LoadScene("game");
+    }
+
+    public void _result()
+    {
+        SceneManager.LoadScene("result");
+    }
+
+    public void _title()
+    {
+        SceneManager.LoadScene("title");
     }
 }
