@@ -26,14 +26,14 @@ public class LineMeasure : MonoBehaviour
     {
         if (tenpmove.clear == true && notclear == true)
         {
-            Scoren._score = _rend.positionCount / 2;
-            Debug.Log(Scoren._score);
+            Score._score = _rend.positionCount / 2;
+            Debug.Log(Score._score);
             notclear = false;
             UnityEngine.Cursor.visible = true;
             Invoke("SwitchScene", 1);
         }
     }
-   public static class Scoren
+   public static class Score
     {
         public static int _score;
     }

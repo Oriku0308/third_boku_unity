@@ -14,7 +14,7 @@ public class Score : MonoBehaviour
     {
         
         tex = GetComponent<Text>();
-        kyori = LineMeasure.Scoren._score.ToString();
+        kyori = LineMeasure.Score._score.ToString();
         tex.text = "A " + kyori;
     }
 }
